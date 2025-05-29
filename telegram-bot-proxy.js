@@ -139,7 +139,7 @@ async function handleRequest(request) {
     console.log('Request succes', {
       method: request.method,
       headers: request.headers,
-      body,
+      body: body,
       redirect: 'follow',
     });
     return res;
